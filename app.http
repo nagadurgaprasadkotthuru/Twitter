@@ -17,3 +17,15 @@ Content-Type: application/json
   "password": "Balu@143"
 }
 ###
+
+GET http://localhost:3005/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJhbHVfa290dGh1cnUiLCJpYXQiOjE2NzgwOTQ0MTh9.rGK643IJCp8Rljwuh2COua7-1xCaFP6ifYVA_mes7bM
+###
+
+GET http://localhost:3005/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJhbHVfa290dGh1cnUiLCJpYXQiOjE2NzgwOTQ0MTh9.rGK643IJCp8Rljwuh2COua7-1xCaFP6ifYVA_mes7bM
+###
+
+GET http://localhost:3005/tweets/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJhbHVfa290dGh1cnUiLCJpYXQiOjE2NzgwOTQ0MTh9.rGK643IJCp8Rljwuh2COua7-1xCaFP6ifYVA_mes7bM
+###
