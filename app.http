@@ -1,0 +1,19 @@
+POST http://localhost:3005/register/
+Content-Type: application/json
+
+{
+  "username": "balu_kotthuru",
+  "password": "Balu@143",
+  "name": "Balu Kotthuru",
+  "gender": "male"
+}
+###
+
+POST http://localhost:3005/login/
+Content-Type: application/json
+
+{
+  "username": "balu_kotthuru",
+  "password": "Balu@143"
+}
+###
